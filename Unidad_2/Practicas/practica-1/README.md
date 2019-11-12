@@ -10,4 +10,4 @@ A chi-square test is used in statistics to test the independence of two events. 
 
 ### Summsrizer
 
-Spark MLlib offers a easy to use set of functions that can handle operation on dataframes columns one of them is the set of summarizer function that let you sum diferent columns and set of colums wich is pretty useful when working with basics stadisctics.   
+Spark MLlib offers a easy to use set of functions that can handle operations on dataframes columns, one of them is the set of summarizer functions that let you sum diferent columns and set of columns wich is pretty useful when working with basics stadisctics.   
