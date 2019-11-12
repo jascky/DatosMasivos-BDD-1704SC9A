@@ -20,6 +20,7 @@ Split the data into training and test sets (70% and 30% ).
 val Array(trainingData, testData) = data.randomSplit(Array(0.7, 0.3))
 ```
 
+To train model:
 ```scala
 val gbt = new GBTClassifier().setLabelCol("indexedLabel").setFeaturesCol("indexedFeatures").setMaxIter(10).setFeatureSubsetStrategy("auto")
 ```
