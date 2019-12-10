@@ -53,8 +53,6 @@ val model = pipeline.fit(training)
 
 val results = model.transform(test)
 
-
-//Probar el modelo solo se puede con la libreria vieja
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
 
 val predictionAndLabels = results.select($"prediction",$"label").as[(Double, Double)].rdd
