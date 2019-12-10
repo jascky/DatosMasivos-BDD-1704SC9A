@@ -11,6 +11,7 @@
 4. [Gradient boosted tree](#gradient-boosted-tree)
 5. [Multilayer Perceptron](#multilayer-perceptron)
 6. [Support Vector Machine](#support-vector-machine)
+8. [One vs All](#one-vs-all)
 7. [Naive-Bayes](#naive-bayes)
 
 
@@ -162,7 +163,29 @@ To show the predictions of the model:
 val predictions = model.transform(testData)
 predictions.show()
 ```
+## One vs All
+### What's really classification?
+Classification is the process of predicting to which class a new observation or given object belongs, based on the types of attributes it contains.
 
+### Types of classification
+#### Binary classification
+It is a type of classification in which only two different classes (0 or 1) can be assigned. The typical example is spam email detection, in which each email is:
+- spam → in which case it will be tagged with a 1;
+- no spam → tagged with a 0.
+
+#### Multiclass classification
+
+- Multiclass or multinomial classification is the problem of classifying instances in one of three or more classes.
+
+- The multi-class classification should not be confused with the classification of multiple labels, where multiple labels are predicted for each instance.
+
+### Binary Transformation
+While some classification algorithms naturally allow the use of more than two classes, others are by nature binary algorithms, however, these can become multinomial classifiers through a variety of strategies.
+- One vs One
+- **One vs All**
+
+### OneVsAll Classifier
+Classification one against all is a method that involves training with N distinct binary classifiers, each designed to recognize a particular class. One-vs-All is derived from an automated learning reduction in order to perform a multi-class classification given a base classifier that can perform the binary classification efficiently.
 
 ## Multilayer Perceptron with Iris dataset
 
