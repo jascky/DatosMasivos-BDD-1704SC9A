@@ -12,44 +12,12 @@
 5. [Multilayer Perceptron](#multilayer-perceptron)
 6. [Support Vector Machine](#support-vector-machine)
 7. [Naive-Bayes](#naive-bayes)
-> Unidad_2/Practicas/...
+
 
 ### Test
 - [Multilayer Perceptron with Iris dataset](#multilayer-perceptron-with-iris-dataset)
-    > Unidad_2/Evaluacion/test.scala 
 
-```bash
-├── Evaluacion
-│   ├── iris.csv
-│   ├── README.md
-│   └── test.scala
-├── Practicas
-│   ├── practica-1
-│   │   ├── correlation.scala
-│   │   ├── hypo-testing.scala
-│   │   ├── README.md
-│   │   └── summarizer.scala
-│   ├── practica-2
-│   │   ├── arbol-decicsion.scala
-│   │   └── README.md
-│   ├── practica-3
-│   │   ├── random-forest.scala
-│   │   └── README.md
-│   ├── practica-4
-│   │   ├── gbt.scala
-│   │   └── README.md
-│   ├── practica-5
-│   │   ├── multilayer.scala
-│   │   └── README.md
-│   ├── practica-6
-│   │   ├── README.md
-│   │   └── svm.scala
-│   ├── practica-8
-│   │   ├── naive-bayes.scala
-│   │   └── README.md
-│   └── sample_libsvm_data.txt
-└── README.md
-```
+
 
 ## Basic stadistics
 ### Correllation
