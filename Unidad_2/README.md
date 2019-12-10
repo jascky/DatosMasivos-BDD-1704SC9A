@@ -24,8 +24,7 @@ A chi-square test is used in statistics to test the independence of two events. 
 
 ### Summsrizer
 
-Spark MLlib offers a easy to use set of functions that can handle operations on dataframes columns, one of them is the set of summarizer functions that let you sum diferent columns and set of columns wich is pretty useful when working with basics stadisctics.   ### Correllation
-Correlation refers to a mutual relationship or association between quantities. In almost any business, it is useful to express one quantity in terms of its relationship with others. For example, sales might increase when the marketing department spends more on TV ads. Spark MLLib provides a `correlation` function that easily helps calculate the correlation between to quantities.
+Spark MLlib offers a easy to use set of functions that can handle operations on dataframes columns, one of them is the set of summarizer functions that let you sum diferent columns and set of columns wich is pretty useful when working with basics stadisctics.
    
 
 ## Decision Tree
